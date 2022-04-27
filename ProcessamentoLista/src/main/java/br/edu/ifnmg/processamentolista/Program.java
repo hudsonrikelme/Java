@@ -21,8 +21,7 @@ public class Program {
         outs.add(1.0);
         outs.add(3.0);
         outs.add(5.0);
-        
-        
+
 //     --==Teste 2 ==--        
 //        ins.add(1.0);
 //        ins.add(3.0);
@@ -31,8 +30,6 @@ public class Program {
 //        outs.add(2.0);
 //        outs.add(4.0);
 //        outs.add(6.0);
-        
-
 //     --==Teste 3 ==--
 //        ins.add(1.0);
 //        ins.add(3.0);
@@ -41,8 +38,6 @@ public class Program {
 //        outs.add(3.0);
 //        outs.add(7.0);
 //        outs.add(11.0); 
-
-        
 //     --==Teste 4 ==--
 //        ins.add(1.0);
 //        ins.add(3.0);
@@ -51,8 +46,6 @@ public class Program {
 //        outs.add(4.5);
 //        outs.add(12.5);
 //        outs.add(20.5); 
-
-
 //        --==Teste 5 ==--
 //          ins.add(2.900000095);
 //          ins.add(6.699999809);
@@ -82,17 +75,14 @@ public class Program {
 //          outs.add(4.400000095);
 //          outs.add(5.199999809);
 //          
-
         Dupla teste1;
 
-        
         teste1 = RegressaoLinear.metodo(ins, outs);
 
         System.out.println("W1: " + String.format("%.3f", teste1.getX())
                 + "\nW0: " + String.format("%.3f", teste1.getY())
                 + "\n");
-//        
-        
+
 //        --==Teste 2 ==--
 
 //        Dupla teste2;
@@ -102,8 +92,6 @@ public class Program {
 //        System.out.println("W1: " + String.format("%.3f", teste2.getX())
 //                + "\nW0: " + String.format("%.3f", teste2.getY())
 //                + "\n");
-        
-
 
 //        --==Teste 3 ==--
 
@@ -116,7 +104,6 @@ public class Program {
 //                + "\nW0: " + String.format("%.3f", teste3.getY())
 //                + "\n");
 
-
 //        --==Teste 4 ==--
 
 //        Dupla teste4;
@@ -127,7 +114,7 @@ public class Program {
 //                + "\nW0: " + String.format("%.3f", teste4.getY())
 //                + "\n");
 
-        
+
 //        --==Teste 5 ==--
 
 //        Dupla teste5;
@@ -137,8 +124,5 @@ public class Program {
 //        System.out.println("W1: " + String.format("%.3f", teste5.getX())
 //                + "\nW0: " + String.format("%.3f", teste5.getY())
 //                + "\n");
-        
-        
-        
     }
 }

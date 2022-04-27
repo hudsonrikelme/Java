@@ -1,4 +1,3 @@
-
 package br.edu.ifnmg.processamentolista;
 
 /**
@@ -6,6 +5,7 @@ package br.edu.ifnmg.processamentolista;
  * @author Rikelme
  */
 public class Dupla<T, U> {
+
     private T x;
     private U y;
 
@@ -29,8 +29,5 @@ public class Dupla<T, U> {
     public void setY(U y) {
         this.y = y;
     }
-    
-    
-    
-    
+
 }
